@@ -1,0 +1,35 @@
+{% extends "base.html" %} {% block title %}Home{% endblock %} {% block content%}
+<h1 align="center"><marquee>My HomePage-SANJAY S</marquee></h1>
+<p>
+		<b>About me</b><br>
+		<h2>I'm a fresher looking for oppurtunities in cloud domain</h2><br>
+		<b>Personal Details</b><br>
+			Date Of Birth: 18/04/2002<br>
+			Gender:        Male<br>
+		<b>Skills</b><br>
+			JAVA<br>
+			REACT<br>
+			NETWORKING<br>
+			AWS<br><br><br>
+</p>
+<h1 align="center">Comments</h1>
+<ul class="list-group list-group-flush" id="Description">
+  {% for note in user.notes %}
+  <li class="list-group-item">
+    {{ note.data }}
+    <button type="button" class="close" onClick="deleteNote({{ note.id }})">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </li>
+  {% endfor %}
+</ul>
+<form method="POST">
+  <textarea name="note" id="note" class="form-control"></textarea>
+  <br />
+</ul>
+<form method="POST">
+  <div align="center">
+    <button type="submit" class="btn btn-primary">Add Notes</button>
+  </div>
+</form>
+{% endblock %}
