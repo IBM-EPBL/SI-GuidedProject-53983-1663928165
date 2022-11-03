@@ -1,7 +1,7 @@
 # SI-GuidedProject-53983-1663928165
 Customer Complaint Registry using Cloud Technology
 
-Team Id: PNT2022TMID24347
+ * Team Id: PNT2022TMID24347
 
 Overview:
 
@@ -16,39 +16,6 @@ Overview:
  * Whenever the agent is assigned to a customer they will be notified with an email alert. 
  
  * Customers can view the status of the ticket till the service is provided.
- 
-
-👨🏻‍💻 SOFTWARE REQUIRED: 
-
- *) PYTHON,
- 
- *) FLASK,
- 
- *) DOCKER.
- 
- 
-🈸 TECHNOLOGY: 
-
- A) IBM CLOUD,
- 
- B) HTML	CSS,
- 
- C) PYTHON - FLASK	,
- 
- D) KUBERNETES	DOCKER,
- 
- E) IBM CONTAINER REGISTRY	IBM CLOUD OBJECT	IBM DB2
-
-
-🧑🏻‍🦰 TEAM MEMBERS: 
-
- 1. GOUTHAM K,
-
- 2. SANJAY S,
-
- 3. ROGITH M,
-
- 4. SIVA SRIRAJ.
 
 
 📒 ASSIGNMENT FINISHED: 
@@ -70,5 +37,43 @@ Overview:
  3. DESIGN PHASE 2 ✅
 
  4. PROJECT PLANNING ✅
+
+
+🧑🏻‍🦰 TEAM MEMBERS: 
+
+ 1. GOUTHAM K,
+
+ 2. SANJAY S,
+
+ 3. ROGITH M,
+
+ 4. SIVA SRIRAJ.
+ 
+ 
+
+👨🏻‍💻 SOFTWARE REQUIRED: 
+
+ * PYTHON,
+ 
+ * FLASK,
+ 
+ * DOCKER.
+ 
+ 
+🈸 TECHNOLOGY: 
+
+ * IBM CLOUD,
+ 
+ * HTML	CSS,
+ 
+ * PYTHON - FLASK	,
+ 
+ * KUBERNETES	DOCKER,
+ 
+ * IBM CONTAINER REGISTRY	IBM CLOUD OBJECT	IBM DB2
+
+
+
+
  
  
