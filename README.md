@@ -6,44 +6,45 @@ Overview:
 
 📝 PROJECT DESCRIPTION: 
 
-This Application has been developed to help the customer in processing their complaints. 
-The customers can raise the ticket with a detailed description of the issue.
-An Agent will be assigned to the Customer to solve the problem.
-Whenever the agent is assigned to a customer they will be notified with an email alert. 
-Customers can view the status of the ticket till the service is provided.
+ This Application has been developed to help the customer in processing their complaints. 
+ The customers can raise the ticket with a detailed description of the issue.
+ An Agent will be assigned to the Customer to solve the problem.
+ Whenever the agent is assigned to a customer they will be notified with an email alert. 
+ Customers can view the status of the ticket till the service is provided.
 
 👨🏻‍💻 SOFTWARE REQUIRED: 
 
-PYTHON
-FLASK
-DOCKER
+ PYTHON
+ FLASK
+ DOCKER
  
 🈸 TECHNOLOGY: 
 
-IBM CLOUD	HTML	CSS
-PYTHON - FLASK	KUBERNETES	DOCKER
-IBM CONTAINER REGISTRY	IBM CLOUD OBJECT	IBM DB2
+ IBM CLOUD	HTML	CSS
+ PYTHON - FLASK	KUBERNETES	DOCKER
+ IBM CONTAINER REGISTRY	IBM CLOUD OBJECT	IBM DB2
+
 
 🧑🏻‍🦰 TEAM MEMBERS: 
 
-GOUTHAM K,
+ GOUTHAM K,
 
-SANJAY S,
+ SANJAY S,
 
-ROGITH M,
+ ROGITH M,
 
-SIVA SRIRAJ.
+ SIVA SRIRAJ.
 
 
 📒 ASSIGNMENT FINISHED: 
 
- ASSIGNMENT 1 ✅,
+  ASSIGNMENT 1 ✅,
  
- ASSIGNMENT 2 ✅,
+  ASSIGNMENT 2 ✅,
  
- ASSIGNMENT 3 ✅,
+  ASSIGNMENT 3 ✅,
  
- ASSIGNMENT 4 ✅.
+  ASSIGNMENT 4 ✅.
  
  FINISHED TASKS:
  
