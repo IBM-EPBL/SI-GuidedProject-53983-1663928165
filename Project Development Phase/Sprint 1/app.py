@@ -29,7 +29,7 @@ app.secret_key = 'your secret key'
 
 @app.route('/')
 def home():
-    message = "TEAM ID : PNT2022TMID24347" +" "+ "BATCH ID : B3-3M5E " +" "+ "CUSTpMER COMPLAINT REGISTRY "
+    message = "TEAM ID : PNT2022TMID24347" +" "+ "BATCH ID : B3-3M5E " +" "+ "CUST0MER COMPLAINT REGISTRY "
     return render_template('index.html',mes=message)
 
 
