@@ -1,3 +1,0 @@
-SPRINT 2 Completed of basic webpage functions in Flask Micro-Service of raising Complaints
-Objective:
-*Create Agent & Query Resolver Panel-Ticket raising & Agent Templates ✅

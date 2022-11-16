@@ -1,0 +1,145 @@
+{% extends 'base.html' %}
+
+
+{% block body %}
+
+<body data-spy="scroll" data-target="#pb-navbar" data-offset="200">
+
+
+	<section class="site-hero mx-auto" style="background-color: rgb(0, 0, 0);" id="section-home">
+
+		<div class="container p-3 mb-2 bg-primary rounded mx-auto " style="height:1000px; width:800px;">
+
+			<div class="row text-center" style="padding-top:150px;">
+				<h1 class="section-heading text-center col-md-16">CUSTOMER-CARE REGISTRY</h1>
+			</div>
+		</div>
+
+	</section>
+
+
+<center>
+	<!-- section -->
+	<section class="site-section" id="section-sign">
+
+		<div class="container" style="width: 200 px; height:500px">
+			
+				<h2 style="color:white;" class="text-center">{{mes}}</h2>
+			
+			<div class="row text-center mx-auto">
+				<h1 class="section-heading text-center col-md-12 mb-6">Create your <strong> Account
+						Now!</strong> </h1>
+			</div>
+
+			<div class="row text-center mx-auto mb-3">
+				<h2 class="section-heading text-center col-md-12">Create your <strong> User
+						Account Now!</strong> </h2>
+			</div>
+
+			<div class="row text-center mx-auto mb-3 ">
+				<a href="{{ url_for('signinpage') }}" class="btn btn-primary btn-block " role="button"><span
+						style="color:black; font-weight: bolder; height: 100px;">Log-in</span> </a>
+			</div>
+			<div class="row text-center mx-auto mb-5 ">
+				<a href="{{ url_for('signuppage') }}" class="btn btn-primary btn-block" role="button"><span
+						style="color:black; font-weight: bolder; height: 100px;">Sign-up</span></a>
+			</div>
+
+
+			<div class="row text-center mx-auto">
+				<h2 class="section-heading text-center col-md-12">Get your <strong> Query Resolver
+						Account Now!</strong> </h2>
+			</div>
+
+			<div class="row text-center mx-auto mb-3 ">
+				<a href="{{ url_for('agentsignin') }}" class="btn btn-primary btn-block " role="button"><span
+						style="color:black; font-weight: bolder;">Log-in</span> </a>
+			</div>
+
+			<div class="row text-center mx-auto mb-3 ">
+				<a href="{{ url_for('agentRegister') }}" class="btn btn-primary btn-block " role="button"><span
+						style="color:black; font-weight: bolder;">Sign-up</span> </a>
+			</div>
+			
+
+
+		</div>
+
+
+
+
+
+
+	</section>
+
+
+
+
+	<section class="site-section" id="section-contact">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 mb-5">
+					<div class="section-heading text-center">
+						<h2>Get <strong>In Touch</strong></h2>
+					</div>
+				</div>
+
+				<div class="col-md-7 mb-5 mb-md-0">
+					<form action="submit_form" class="site-form" method="post">
+						<h3 class="mb-5"></h3>
+						<div class="form-group">
+							<input name="name" type="text" class="form-control px-3 py-4" placeholder="Your Name">
+						</div>
+						<div class="form-group">
+							<input name="email" type="email" class="form-control px-3 py-4" placeholder="Your Email">
+						</div>
+						<div class="form-group mb-5">
+							<textarea name="message" class="form-control px-3 py-4" cols="30" rows="10"
+								placeholder="Write a Message"></textarea>
+						</div>
+						<div class="form-group">
+							<input type="submit" class="btn btn-primary  px-4 py-3" value="Send Message">
+						</div>
+					</form>
+					<script>
+
+						function test() {
+							Swal.fire('Thanks For Contacting Us..')
+							window.scrollTo(0, document.body.scrollHeight);
+
+						}
+						{ { code } }
+					</script>
+				</div>
+				<div class="col-md-5 pl-md-5">
+					<h3 class="mb-5">Contact Details</h3>
+					<ul class="site-contact-details">
+						<li>
+							<span class="text-uppercase">Email</span><br>
+							<ol>1. goutham01cse@gmail.com<br>
+							2. snj1842@gmail.com<br>
+							3. rogithkivi123@gmail.com<br>
+							</ol>
+						</li>
+						<li>
+							<span class="text-uppercase">Phone</span>
+							+91 123456789
+						</li>
+
+						<li>
+							<span class="text-uppercase">Address:</span><br>
+							Senthil Nagar<br>
+							Kolathur <br>
+							Chennai
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+</center>
+
+	{% endblock %}
+</body>
+
+</html>
