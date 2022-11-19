@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.form{
+    display: flex;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    flex-direction: column;
+    width: fit-content;
+    height: fit-content;
+    padding: 20px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.8);
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 2px 20px rgb(0, 0, 0);
+}
+
+.table{
+    top: 50%;
+    left: 50%;
+    position: absolute;
+}
+
+.form input{
+    width: 400px;
+    height: 50px;
+    margin-right: 10px;
+    margin-block: 20px;
+    font-size: large;
+    border-radius: 20px;
+    border: none;
+    padding: 12px;
+    box-shadow: 1px 1px 5px rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #000;
+}
+
+.form textarea{
+    width: 400px;
+    margin-right: 10px;
+    margin-block: 20px;
+    font-size: large;
+    border-radius: 20px;
+    border: none;
+    padding: 12px;
+    box-shadow: 1px 1px 5px rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #000;
+}
+
+.form-data{
+    display: flex;
+    flex-direction: row;
+}
+
+.form-data label{
+    width: 150px;
+    height: 50px;
+    margin-left: 10px;
+    margin-block: 20px;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+    padding: 12px;
+    color: #000;
+}
+
+.btns{
+    width: 200px;
+    height: 50px;
+    font-size: large;
+    font-weight: 600;
+    border-radius: 50px;
+    border: solid 2px black;
+    margin-top: 20px;
+    background-color: #fff;
+    transition: 200ms ease-in-out;
+    cursor: pointer;
+}
+
+.btns:hover{
+    background-color: #000;
+    color: #fff;
+    transform: scale(1.1);
+}
+
+.assignBox{
+    display: flex;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    flex-direction: column;
+    width: fit-content;
+    height: fit-content;
+    padding: 50px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.8);
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 2px 20px rgb(0, 0, 0);
+    border-collapse: collapse;
+    font-family: Tahoma, Geneva, sans-serif;
+}
+
+.assignBox td {
+    align-items: center;
+    width: 150px;
+	padding: 15px;
+}
+.assignBox thead td {
+	background-color: #54585d;
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 13px;
+	border: 1px solid #54585d;
+}
+.assignBox tbody td {
+	color: #636363;
+	border: 1px solid #dddfe1;
+}
+.assignBox tbody tr {
+	background-color: #f9fafb;
+}
+.assignBox tbody tr:nth-child(odd) {
+	background-color: #ffffff;
+}

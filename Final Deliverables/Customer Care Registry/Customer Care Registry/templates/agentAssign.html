@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>Agent Assign</title>
+</head>
+<body>
+    
+    <center><h1>Assign An Agent to Solve Complaints from Options</h1></center>
+    <br>
+    <br>
+    <h3><marquee>List of agents</h3></marquee>
+    <div class="assignBox">
+        <table>
+            <thead>
+                <tr>
+                    <td>Name</td>
+                    <td>Email</td>
+                    <td>Complaint</td>
+                    <td>Assign Agent</td>
+                </tr>
+            </thead>
+            <tbody>
+                {% for i in comp %}
+                <tr>
+                    <td>{{i[0]}}</td>
+                    <td>{{i[1]}}</td>
+                    <td>{{i[2]}}</td>
+                    <td>
+                        <select name="agents" id="agents">
+                            <option value="1">SANJAY</option>
+                            <option value="2">ROGITH</option>
+                            <option value="3">GOUTHAM</option>
+                        </select>
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

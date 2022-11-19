@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>Admin Page</title>
+</head>
+<body>
+    <marquee><h1>Welcome to Admin page</marquee></h1>
+    <div class="assignBox">
+            <h3>AGENT DETAILS</h3>
+        <table>
+            <thead>
+            <tr>
+              <td>ID</td>
+              <td>NAME</td>
+            </tr>
+        </thead>
+        <tbody>
+            {% for a in agt %}
+            <tr>
+              <td>{{a[0]}}</td>
+              <td>{{a[1]}}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+        </table>
+        <a href="/login"><button type="button" class="btns">Logout</button></a>
+    </div>
+    <br>
+    <br>
+   
+</body>
+</html>
